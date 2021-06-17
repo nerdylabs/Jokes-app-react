@@ -6,7 +6,7 @@ import { TwitterShareButton } from 'react-share';
 
 const Button = (props)=>(
 <div className="btn">
-    <TwitterShareButton url="https://nerdylabs.github.io/jokes-app-react"  title={props.children} via="_nerdyjoe">
+    <TwitterShareButton url={window.location.href}  title={props.children} via="_nerdyjoe">
         <button className="twitter-button">
             <i class="fab fa-twitter"></i>
         </button>
